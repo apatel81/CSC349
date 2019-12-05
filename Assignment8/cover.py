@@ -56,7 +56,7 @@ def brute(G):
         if visited[i] == False:
             c.append(i)
             visited[i] = True
-            for j in G.graph[i]:
+            for j in G.graph:
                 if visited[j] == False:
                     visited[j] = True
                     break
