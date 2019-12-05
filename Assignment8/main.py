@@ -74,21 +74,21 @@ brute = cover.brute(g3)
 
 brute.sort()
 
-# print("log-Approximation:", *smart)
-# print("2-Approximation:", *approx)
-# print("Exact Solution:", *brute)
+print("log-Approximation:", *smart)
+print("2-Approximation:", *approx)
+print("Exact Solution:", *brute)
 
-with open('my1.txt', 'w') as f:
-    f.write("log-Approximation: ")
-    for i in smart:
-        f.write("%s " % i)
-
-    f.write("\n")
-    f.write("2-Approximation: ")
-    for i in approx:
-        f.write("%s " % i)
-
-    f.write("\n")
-    f.write("Exact Solution: ")
-    for i in brute:
-        f.write("%s " % i)
+# with open('my1.txt', 'w') as f:
+#     f.write("log-Approximation: ")
+#     for i in smart:
+#         f.write("%s " % i)
+#
+#     f.write("\n")
+#     f.write("2-Approximation: ")
+#     for i in approx:
+#         f.write("%s " % i)
+#
+#     f.write("\n")
+#     f.write("Exact Solution: ")
+#     for i in brute:
+#         f.write("%s " % i)
